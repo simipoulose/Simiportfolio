@@ -42,7 +42,7 @@
     <i class="header-toggle d-xl-none bi bi-list"></i>
 
     <div class="profile-img">
-      <img src="/portfolio/assets/img/1.jpg.jpeg" alt="" class="img-fluid rounded-circle">
+      <img src="/portfolio/assets/img/1.jpeg" alt="" class="img-fluid rounded-circle">
     </div>
 
     <a href="index.html" class="logo d-flex align-items-center justify-content-center">
@@ -95,7 +95,7 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
 
-      <img src="/portfolio/assets/img/2.jpg.jpeg" alt="" data-aos="fade-in" class="">
+      <img src="/portfolio/assets/img/2.jpeg" alt="" data-aos="fade-in" class="">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <h2>Simi M P</h2>
@@ -117,7 +117,7 @@
 
         <div class="row gy-4 justify-content-center">
           <div class="col-lg-4">
-            <img src="/portfolio/assets/img/2.jpg.jpeg" class="img-fluid" alt="">
+            <img src="/portfolio/assets/img/2.jpeg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 content">
             <h2>MEARN Stack &amp; Web Developer.</h2>
@@ -625,7 +625,7 @@ I blend clean design with efficient code to build engaging, user-friendly web ex
                   <span>Research Design<br>Meets function in every pixel, blending clarity with intuitive motion</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
-                <img src="/portfolio/assets/img/1.jpg.jpeg" class="testimonial-img" alt="">
+                <img src="/portfolio/assets/img/1.jpeg" class="testimonial-img" alt="">
                 <h3>Simi M P</h3>
                 <h4>Designer</h4>
               </div>
@@ -638,7 +638,7 @@ I blend clean design with efficient code to build engaging, user-friendly web ex
                   <span>Analyze <br>Crafting clean, thoughtful interfaces where form flows seamlessly into function and clarity.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
-                <img src="/portfolio/assets/img/3.jpg.jpeg" class="testimonial-img" alt="">
+                <img src="/portfolio/assets/img/3.jpeg" class="testimonial-img" alt="">
                 <h3>Simi M P</h3>
                 <h4>Store Owner</h4>
               </div>
@@ -651,7 +651,7 @@ I blend clean design with efficient code to build engaging, user-friendly web ex
                   <span> Design<br> Design seamless digital experiences with precision, purpose, and a touch of elegance..</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
-                <img src="/portfolio/assets/img/2.jpg.jpeg" class="testimonial-img" alt="">
+                <img src="/portfolio/assets/img/2.jpeg" class="testimonial-img" alt="">
                 <h3>Simi M p</h3>
                 <h4>Freelancer</h4>
               </div>
@@ -664,7 +664,7 @@ I blend clean design with efficient code to build engaging, user-friendly web ex
                   <span> Launch<br> Craft digital products where thoughtful design meets performance-driven, responsive development.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
-                <img src="/portfolio/assets/img/3.jpg.jpeg" class="testimonial-img" alt="">
+                <img src="/portfolio/assets/img/3.jpeg" class="testimonial-img" alt="">
                 <h3>Simi M P</h3>
                 <h4>Entrepreneur</h4>
               </div>
@@ -725,27 +725,25 @@ I blend clean design with efficient code to build engaging, user-friendly web ex
             
         <div class="row no-gutters block-9">
           <div class="col-md-6 order-md-last d-flex">
-            <form action="https://api.web3forms.com/submit" class="bg-light p-4 p-md-5 contact-form" method="POST" id="contactForm">
+            <form action="https://api.web3forms.com/submit" method="POST">
 
-				<input type="hidden" name="access_key" value="587b49ca-f0f4-4cf8-9128-530fcb628868">
-        		<input type="hidden" name="email" value="bscphysicsdegree@gmail.com">
+    <!-- Replace with your Access Key -->
+    <input type="hidden" name="access_key" value="66f84aa4-0ee9-415a-a1cd-5c2b74e349da">
 
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Name">
-              </div>
-              <div class="form-group">
-                <input type="email" class="form-control" placeholder="Your Email">
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Subject">
-              </div>
-              <div class="form-group">
-                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
-              </div>
-              <div class="form-group">
-                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
-              </div>
-            </form>
+    <!-- Form Inputs. Each input must have a name="" attribute -->
+    <input type="text" name="name" placeholder="Name" required>
+    <input type="email" name="email" placeholder="Email">
+    <textarea name="message" placeholder="Message"></textarea>
+
+    <!-- Honeypot Spam Protection -->
+    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+    <!-- Custom Confirmation / Success Page -->
+    <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+
+    <button type="submit">Submit Form</button>
+
+</form>
           </div><!-- End Contact Form -->
 
         </div>
